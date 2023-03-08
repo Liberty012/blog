@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Ciencia ficción</title>
+
+    <!--LINKS PARA LA FUENTE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <!--FIN LINKS PARA LA FUENTE-->
+</head>
+
+<body>
+
+    <!--PARA USAR BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!--FIN PARA USAR BOOTSTRAP-->
+
+    <!--HEADER CON ELEMENTOS BOOTSTRAP-->
+
+    <!--donde ponga la id es donde me desplazo-->
+    <a id="top"></a>
+    <!--para desplazarme hacia arriba-->
+    <a href="#top" id="scroll-to-top-button"><img src="ima/subir.png" width="100" height="100"></a>
+
+
+    <div class="m-0">
+        <nav class="navbar navbar-expand-lg fixed-top" style="background-color:#8E9AAF">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <!--LOGO-->
+                    <img src="ima/logof.png" width="90" height="90">
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-item nav-link active" id="ini">Inicio</a>
+                        <a href="recomendaciones.html" class="nav-item nav-link" id="rec">Recomendaciones</a>
+                        <a href="rese.html" class="nav-item nav-link" id="re">Reseñas</a>
+                        <a href="lecturas.html" class="nav-item nav-link" id="lec">Lecturas</a>
+                    </div>
+                    <!--BOTON-->
+                    <div class="navbar-nav ms-auto">
+                        <a href="contacto.html">
+                            <button style="background-color:#EAF4F4" class="btn btn-outline-dark btn-lg" type="button"
+                                id="con">Contacto</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--FIN HEADER-->
+
+    <!--GRID BOOTSTRAP-->
+
+
+    <div class="container-fluid text-center">
+        <div class="row">
+            <div class="col-xs col-sm-12 col-md-12" style="background-color:#FFFCF2">
+                <!--MENÚ DESPLEGABLE CON BOOTSTRAP-->
+                <div class="dropdown" id="menu">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Géneros
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="recomendaciones.html">Fantasia</a></li>
+                        <li><a class="dropdown-item" href="recCien.html">Ciencia ficción</a></li>
+                        <li><a class="dropdown-item" href="recRoman.html">Romance</a></li>
+                    </ul>
+                </div>
+                <!--FIN MENÚ DESPLEGABLE CON BOOTSTRAP-->
+            </div>
+
+            <div class="titrec">
+                <h1>CIENCIA FICCIÓN</h1>
+            </div>
+            <!--primer libro-->
+            <div class="col-xs col-sm-4 col-md-4" style="background-color:#FFFCF2">
+                <a href="https://www.goodreads.com/book/show/28421168-renegades?from_search=true&from_srp=true&qid=f5W7UefzR8&rank=1"
+                    target="_blank"> <img id="bella" src="ima/rene.jpg" id="banner" width="60%" class="img-thumbnail"
+                        alt="Responsive image"></a>
+                <!--le pongo una id a cada título para modificarlos en el css-->
+                <h2 class="tit1">Renegades</h2>
+                <p>Marissa Meyer</p>
+            </div>
+
+            <!--segundo libro-->
+            <div class="col-xs col-sm-4 col-md-4" style="background-color:#FFFCF2">
+                <a href="https://www.goodreads.com/book/show/50520939-the-atlas-six?from_search=true&from_srp=true&qid=ryMOBm4suz&rank=1"
+                    target="_blank"> <img id="poppy" src="ima/atlas.jpg" id="banner" width="60%" class="img-thumbnail"
+                        alt="Responsive image"></a>
+                <h2 class="tit2">The Atlas Six</h2>
+                <p>Olivie Blake</p>
+            </div>
+
+            <!--tercer libro-->
+            <div class="col-xs col-sm-4 col-md-4" style="background-color:#FFFCF2">
+                <a href="https://www.goodreads.com/book/show/43352954-this-is-how-you-lose-the-time-war?from_search=true&from_srp=true&qid=RDKi6htH08&rank=1"
+                    target="_blank"> <img id="this" src="ima/this.jpg" id="banner" width="60%" class="img-thumbnail"
+                        alt="Responsive image"></a>
+                <h2 class="tit3">This Is How You Lose the Time War</h2>
+                <p>Amal El-Mohtar</p>
+            </div>
+
+            <!--cuarto libro-->
+            <div class="col-xs col-sm-4 col-md-4" style="background-color:#FFFCF2">
+                <a href="https://www.goodreads.com/book/show/15839976-red-rising?from_search=true&from_srp=true&qid=489ZLrF8T1&rank=1"
+                    target="_blank"> <img id="legend" src="ima/rising.jpg" id="banner" width="60%" class="img-thumbnail"
+                        alt="Responsive image"></a>
+                <h2 class="tit4">Red Rising</h2>
+                <p>Pierce Brown</p>
+            </div>
+
+            <!--quinto libro-->
+            <div class="col-xs col-sm-4 col-md-4" style="background-color:#FFFCF2">
+                <a href="https://www.goodreads.com/book/show/30075662-aurora-rising?from_search=true&from_srp=true&qid=juPM5BprRb&rank=1"
+                    target="_blank"> <img id="aurora" src="ima/aurora.jpg" id="banner" width="60%" class="img-thumbnail"
+                        alt="Responsive image"></a>
+                <h2 class="tit5">Aurora Rising</h2>
+                <p>Amie Kaufman</p>
+            </div>
+
+            <!--sexto libro-->
+            <div class="col-xs col-sm-4 col-md-4" style="background-color:#FFFCF2">
+                <a href="https://www.goodreads.com/book/show/10429045-shatter-me?from_search=true&from_srp=true&qid=4vAOk4mo2Z&rank=1"
+                    target="_blank"> <img id="six" src="ima/shatter.jpg" id="banner" width="60%" class="img-thumbnail"
+                        alt="Responsive image"></a>
+                <h2 class="tit6">Shatter Me</h2>
+                <p>Tehereh Mafi</p>
+            </div>
+        </div>
+
+        <!--FIN GRID BOOTSTRAP-->
+
+
+        <!--FOOTER CON BOOTSTRAP-->
+        <footer class="text-center text-lg-start bg-light text-muted" id="footer">
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                <div class="me-5 d-none d-lg-block">
+                    <span> ¡Espero que hayas disfrutado!
+                    </span>
+                </div>
+            </section>
+
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <div class="row mt-3">
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <p>
+                                ❝I would say, some people are like constellations that only touch the earth for a
+                                season.❞
+                            </p>
+                        </div>
+
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- LINKS DE LA PÁGINA -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                <a href="index.html" class="text-reset">Inicio</a>
+                            </h6>
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                <a href="recomendaciones.html" class="text-reset">Recomendaciones</a>
+                            </h6>
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                <a href="rese.html" class="text-reset">Reseñas</a>
+                            </h6>
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                <a href="lecturas.html" class="text-reset">Lecturas</a>
+                            </h6>
+                        </div>
+
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- LINK CONTACTO -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                <a href="contacto.html" class="text-reset">Contacto</a>
+                            </h6>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- FIN LINKS DE LA PÁGINA  -->
+
+            <!-- COPYRIGHT -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2023 Copyright:
+                <p class="text-reset fw-bold">Liberty Tamayo Martínez</p>
+
+            </div>
+            <!-- COPYRIGHT -->
+        </footer>
+        <!--FIN FOOTER-->
+
+
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+ /*hoja de estilos de las lecturas*/
+
+
+ /*cambiar fuente de toda la pag*/
+ * {
+    font-family: 'Roboto Slab', serif;
+ }
+
+ .menu {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+ }
+
+ .lect {
+    margin-top: 50px;
+ }
+
+ .total {
+    background-color: #FFFCF2;
+    padding: 20px;
+ }
+
+
+ .contene {
+    background-color: #FFFCF2;
+ }
+
+ .contener2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFCF2;
+    padding-top: 50px;
+ }
+
+ .contenerUlt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFCF2;
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+ }
+
+ #favs {
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 3px solid;
+    border-color: #9A90A2;
+    stroke: 15px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+ }
+
+ .graf1 {
+    background-color: #FFFCF2;
+    padding-top: 50px;
+ }
+
+ .esta {
+    background-color: #FFFCF2;
+    margin: 0px;
+ }
+
+ /*para el scroll*/
+ #scroll-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+ }
+
+ #scroll-to-top-button:focus {
+    outline: none;
+ }
+
+ html {
+    scroll-behavior: smooth;
+ }
+
+ .cita {
+    background-color: #FFFCF2;
+    padding-bottom: 200px;
+    padding-top: 100px;
+ }
+
+ .segunda {
+    padding-top: 40px;
+    padding-bottom: 100px;
+ }
+
+ .tit1,
+ .tit2 {
+    padding: 10px;
+ }

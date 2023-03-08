@@ -1,0 +1,61 @@
+/*hoja de estilos de index*/
+
+/*cambiar fuente de toda la pag*/
+* {
+    font-family: 'Roboto Slab', serif;
+}
+
+/*añadir margen a las fotos*/
+.primera,
+.segunda {
+    margin: 40px;
+}
+
+/*borde a los cuadrados*/
+#gen,
+#favs {
+    border: 1px solid #8E9AAF;
+    margin-top: 50px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+body {
+    padding-top: 100px;
+}
+
+.intro1 {
+    margin-top: 20px;
+}
+
+.inf {
+    background-color: #FFFCF2;
+}
+
+.conoceme {
+    padding-top: 70px;
+    margin-bottom: 50px;
+}
+
+#footer {
+    margin-top: 400px;
+}
+
+/*css para la flecha para deslizar hacia arriba*/
+#scroll-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#scroll-to-top-button:focus {
+    outline: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+

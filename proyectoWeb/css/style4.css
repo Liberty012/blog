@@ -1,0 +1,66 @@
+/*hoja de estilos de las reseñas*/
+
+/*cambiar fuente de toda la pag*/
+* {
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.rese2 {
+    font-size: 20px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.rese3, .rese {
+    font-size: 20px;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+
+.tit {
+    margin-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+} 
+
+.rating {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+body {
+    padding-top: 100px;
+
+}
+
+.tit2, .tit3 {
+    margin-top: 60px;
+}
+
+#scroll-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#scroll-to-top-button:focus {
+    outline: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.imagen {
+    margin-bottom: 130px;
+    border: 5px solid #9A90A2;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+

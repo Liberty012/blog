@@ -1,0 +1,75 @@
+/* hoja de estilos de contacto */
+
+/*cambiar fuente de toda la pag*/
+* {
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.formu {
+    width: 50%;
+    margin-left: 20px;
+    background-color: #FFFCF2;
+    padding: 20px;
+}
+
+.titContacto{
+    text-align: center;
+    margin-top: 100px;
+    background-color: #FFFCF2;
+    padding: 50px;
+    margin-bottom: 0px;
+
+}
+
+.titMapa {
+    text-align: center;
+    margin: 0px;
+    background-color: #FFFCF2;
+    padding: 60px;
+   
+}
+
+.parrContacto{
+    margin: 0px;
+    text-align: center;
+    background-color: #FFFCF2;
+
+}
+
+.parrMapa {
+    margin: 0px;
+    text-align: center;
+    background-color: #FFFCF2;
+    padding-bottom: 60px;
+
+}
+
+.fondo{
+    background-color: #FFFCF2;
+    padding: 40px
+}
+
+.mop {
+    background-color: #FFFCF2;
+    padding-bottom: 90px;
+}
+
+#scroll-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#scroll-to-top-button:focus {
+    outline: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+

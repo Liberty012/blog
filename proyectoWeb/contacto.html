@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style3.css">
+
+    <title>Contacto</title>
+
+    <!--LINKS PARA LA FUENTE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <!--FIN LINKS PARA LA FUENTE-->
+
+</head>
+
+<body>
+
+
+
+    <!--PARA USAR BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!--FIN PARA USAR BOOTSTRAP-->
+
+
+    <!--donde ponga la id es donde me desplazo-->
+    <a id="top"></a>
+    <!--para desplazarme hacia arriba-->
+    <a href="#top" id="scroll-to-top-button"><img src="ima/subir.png" width="100" height="100"></a>
+
+    <!--HEADER CON ELEMENTOS BOOTSTRAP-->
+    <div class="m-0">
+        <nav class="navbar navbar-expand-lg fixed-top" style="background-color:#8E9AAF">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <!--LOGO-->
+                    <img src="ima/logof.png" width="90" height="90">
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-item nav-link active" id="ini">Inicio</a>
+                        <a href="recomendaciones.html" class="nav-item nav-link" id="rec">Recomendaciones</a>
+                        <a href="rese.html" class="nav-item nav-link" id="re">Reseñas</a>
+                        <a href="lecturas.html" class="nav-item nav-link" id="lec">Lecturas</a>
+                    </div>
+                    <!--BOTON-->
+                    <div class="navbar-nav ms-auto">
+                        <button style="background-color:#EAF4F4" class="btn btn-outline-dark btn-lg" type="button"
+                            id="con">Contacto</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--FIN HEADER-->
+
+
+
+
+    <h2 class="titContacto">¿QUIERES PONERTE EN CONTACTO CONMIGO?</h2>
+    <h5 class="parrContacto">Aquí te dejo un pequeño formulario en caso de que quieras que haga la reseña de un
+        libro,<br> hacerme alguna recomendación o simplemente algún comentario para mejorar.</h3>
+
+
+        <!--FORMULARIO CON ELEMENTOS BOOTSTRAP-->
+        <div class="fondo">
+            <form action="https://formsubmit.co/liberty.tamayo@escuelaestech.es" method="POST">
+                <div class="formu">
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Nombre</label>
+                        <input class="form-control" id="exampleFormControlInput1" required>
+                        <label for="exampleFormControlInput2">Apellido</label>
+                        <input class="form-control" id="exampleFormControlInput2" required>
+                        <label for="exampleFormControlInput3">Correo electrónico</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput3"
+                            placeholder="name@example.com" required>
+                        <label for="exampleFormControlInput4">Dirección</label>
+                        <input class="form-control" id="exampleFormControlInput4" required>
+                        <label for="exampleFormControlInput5">Teléfono</label>
+                        <input type="tel" class="form-control" id="exampleFormControlInput5" required>
+
+
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">¿Qué me quieres enviar?</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>Petición de reseña</option>
+                            <option>Recomendación</option>
+                            <option>Comentario</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1"></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="text-uppercase fw-bold mb-4">Enviar</button>
+
+        </div>
+
+
+        </form>
+        <!--FIN FORMULARIO CON ELEMENTOS BOOTSTRAP-->
+
+
+        <div class="mop">
+            <!--MAPA-->
+            <h2 class="titMapa">¿QUIERES SABER QUE LIBRERÍAS FRECUENTO?</h2>
+            <h5 class="parrMapa">Aquí te dejo un par de librerías en las cuales suelo comprar.<br>Usualmente compro
+                online,
+                pero esta librería tiene varias tiendas en ciudades grandes que cuando puedo me gusta visitar.</h3>
+
+
+                <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3180.266943135498!2d-3.615588984700328!3d37.14635167987871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fbf63d4b8c87%3A0xb11c7c177fb445a6!2sCasa%20del%20Libro!5e0!3m2!1ses!2ses!4v1677934578828!5m2!1ses!2ses"
+                    width="200px" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                    class="text-reset" id="map1" target="mapa">Granada</a>
+
+
+                <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12680.976094702677!2d-5.991741009011943!3d37.384060977287476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126c1022b5d467%3A0x981c74bce59ae650!2sCasa%20del%20Libro!5e0!3m2!1ses!2ses!4v1677934884567!5m2!1ses!2ses"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="text-reset"
+                    referrerpolicy="no-referrer-when-downgrade" target="mapa">Sevilla</a>
+
+                <iframe name="mapa"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3180.266943135498!2d-3.615588984700328!3d37.14635167987871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fbf63d4b8c87%3A0xb11c7c177fb445a6!2sCasa%20del%20Libro!5e0!3m2!1ses!2ses!4v1677934578828!5m2!1ses!2ses"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+        <!--FIN MAPA-->
+
+
+
+        <!--FOOTER CON BOOTSTRAP-->
+        <div class="footer">
+            <footer class="text-center text-lg-start bg-light text-muted" id="footer">
+                <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                    <div class="me-5 d-none d-lg-block">
+                        <span> ¡Espero que hayas disfrutado!
+                        </span>
+                    </div>
+                </section>
+
+                <section class="">
+                    <div class="container text-center text-md-start mt-5">
+                        <div class="row mt-3">
+                            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                                <p>
+                                    ❝I would say, some people are like constellations that only touch the earth for a
+                                    season.❞
+                                </p>
+                            </div>
+
+                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                                <!-- LINKS DE LA PÁGINA -->
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    <a href="index.html" class="text-reset">Inicio</a>
+                                </h6>
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    <a href="recomendaciones.html" class="text-reset">Recomendaciones</a>
+                                </h6>
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    <a href="rese.html" class="text-reset">Reseñas</a>
+                                </h6>
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    <a href="lecturas.html" class="text-reset">Lecturas</a>
+                                </h6>
+                            </div>
+
+                            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                                <!-- LINK CONTACTO -->
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    <a href="contacto.html" class="text-reset">Contacto</a>
+                                </h6>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- FIN LINKS DE LA PÁGINA  -->
+
+                <!-- COPYRIGHT -->
+                <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                    © 2023 Copyright:
+                    <p class="text-reset fw-bold">Liberty Tamayo Martínez</p>
+                </div>
+                <!-- COPYRIGHT -->
+            </footer>
+        </div>
+        <!--FIN FOOTER-->
+
+
+
+</body>
+
+</html>

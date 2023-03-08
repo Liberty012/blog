@@ -1,0 +1,50 @@
+/*hoja de estilos de las recomendaciones*/
+
+
+/*cambiar fuente de toda la pag*/
+* {
+    font-family: 'Roboto Slab', serif;
+}
+
+#menu {
+    margin-top: 150px;
+    margin-left: 30px;
+    width: 10px;
+    margin-bottom: 20px;
+}
+
+#bella, #poppy, #prince, #legend, #babel, #six {
+    margin-top: 30px;
+}
+
+.tit1, .tit2, .tit3, .tit4, .tit5, .tit6 {
+    margin-top: 30px;
+}
+
+#dropdownMenuButton1 {
+    margin-bottom: 100px;
+}
+
+.titrec {
+    background-color: #FFFCF2;
+}
+
+#scroll-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#scroll-to-top-button:focus {
+    outline: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+

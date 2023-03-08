@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecturas</title>
+    <link rel="stylesheet" href="../css/style5.css">
+
+
+
+    <!--LINKS PARA LA FUENTE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <!--FIN LINKS PARA LA FUENTE-->
+
+</head>
+
+<body>
+
+    <!--PARA USAR BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!--FIN PARA USAR BOOTSTRAP-->
+
+    <!--donde ponga la id es donde me desplazo-->
+    <a id="top"></a>
+    <!--para desplazarme hacia arriba-->
+    <a href="#top" id="scroll-to-top-button"><img src="../ima/subir.png" width="100" height="100"></a>
+
+    <!--HEADER CON ELEMENTOS BOOTSTRAP-->
+    <div class="m-0">
+        <nav class="navbar navbar-expand-lg fixed-top" style="background-color:#8E9AAF">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <!--LOGO-->
+                    <img src="../ima/logof.png" width="90" height="90">
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="../index.html" class="nav-item nav-link active" id="ini">Inicio</a>
+                        <a href="../recomendaciones.html" class="nav-item nav-link" id="rec">Recomendaciones</a>
+                        <a href="../rese.html" class="nav-item nav-link" id="re">Reseñas</a>
+                        <a href="../lecturas.html" class="nav-item nav-link" id="lec">Lecturas</a>
+                    </div>
+                    <!--BOTON-->
+                    <div class="navbar-nav ms-auto">
+                        <a href="../contacto.html">
+                            <button style="background-color:#EAF4F4" class="btn btn-outline-dark btn-lg"
+                                type="button">Contacto</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--FIN HEADER-->
+
+    <!--GRID BOOTSTRAP-->
+    <div class="menu">
+        <div class="container-fluid text-center" id="menu">
+            <div class="row">
+                <div class="col-xs col-sm-12 col-md-12" style="background-color:#FFFCF2">
+                    <h1 class="lect">LECTURAS MENSUALES</h1>
+                    <h2>Febrero</h2>
+
+                    <!--MENÚ DESPLEGABLE CON BOOTSTRAP-->
+                    <div class="menu">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Mes
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="../lecturas.html">Enero</a></li>
+                                <li><a class="dropdown-item" href="../meses/feb.html">Febrero</a></li>
+                                <li><a class="dropdown-item" href="../meses/mar.html">Marzo</a></li>
+                                <li><a class="dropdown-item" href="../meses/abr.html">Abril</a></li>
+                                <li><a class="dropdown-item" href="../meses/may.html">Mayo</a></li>
+                                <li><a class="dropdown-item" href="../meses/jun.html">Junio</a></li>
+                                <li><a class="dropdown-item" href="../meses/jul.html">Julio</a></li>
+                                <li><a class="dropdown-item" href="../meses/ag.html">Agosto</a></li>
+                                <li><a class="dropdown-item" href="../meses/sep.html">Septiembre</a></li>
+                                <li><a class="dropdown-item" href="../meses/oct.html">Octubre</a></li>
+                                <li><a class="dropdown-item" href="../meses/nov.html">Noviembre</a></li>
+                                <li><a class="dropdown-item" href="../meses/dic.html">Diciembre</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--FIN MENÚ DESPLEGABLE CON BOOTSTRAP-->
+            </div>
+            <div>
+            </div>
+
+
+            <div class="total">
+                <div class="col-xs col-sm-3 col-md-2 col-lg-2" style="background-color:#CBC0D3" id="favs">
+                    <h5>Total: 8 </h5>
+                </div>
+            </div>
+
+            <div class="contene">
+                <div class="row justify-content-center">
+                    <div class="col-xs col-sm-6 col-md-5 col-lg-3">
+                        <!--CARROUSEL BOOTSTRAP-->
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                    aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                                    aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                                    aria-label="Slide 6"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+                                    aria-label="Slide 7"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
+                                    aria-label="Slide 8"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8"
+                                    aria-label="Slide 9"></button>
+                              
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../ima/lies.jpg" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../ima/bella.jpg" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../ima/star.jpg" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../ima/rav.jpg" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../ima/dream.jpg" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../ima/six.jpg" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../ima/cro.jpg" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../ima/atlas.jpg" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../ima/ang.jpg" class="d-block w-100">
+                                </div>
+
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            </button>
+                        </div>
+                        <!-- FIN CARROUSEL BOOTSTRAP-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="contener2">
+                <div class="col-xs col-sm-10 col-md-8 col-lg-4" style="background-color:#CBC0D3" id="favs">
+                    <h2 clas="tit1">⸙Favoritos⸙</h2>
+                    <p>• The Wicked King<br>
+                        • All My Rage<br>
+                        • Legendborn<br>
+                        • Twisted Games<br>
+                        • Twisted Hate<br>
+                        • The Six Deaths of the Saint </p>
+                </div>
+            </div>
+
+            <div class="col-xs col-sm-12 col-md-12" style="background-color:#FFFCF2">
+                <img class="segunda" src="../ima/marri.png" id="mariposa" width="50%" height="80%">
+            </div>
+
+            <h2 class="esta">ESTADÍSTICAS</h2>
+
+            <div class="graf1">
+                <img id="graf1" src="../ima/graf2.jpg" width="50%">
+            </div>
+
+            <div class="contenerUlt">
+                <div class="col-xs col-sm-10 col-md-8 col-lg-4" style="background-color:#CBC0D3" id="favs">
+
+                    <h5 class="tit2">Libros con mayor rating: </h5>
+                    <p>
+                        • Angels Before Man<br>
+                        • Crooked Kingdom<br>
+                        • Six of Crows<br>
+                    </p>
+
+                    <h5>Libros con menor rating: </h5>
+                    <p>
+                        • The Raven Boys<br>
+                        • Stars Collide<br>
+                        • Shadow and Bone<br>
+                </div>
+            </div>
+
+
+            <div class="cita">
+                <div class="col-xs col-sm-10 col-md-8 col-lg-12">
+                    <h3>Cita del mes</h3>
+                    <p> ❝I would have come for you. And if I couldn't walk, I'd crawl to you, and no matter how broken
+                        we were,<br> we'd fight our way out together-knives drawn, pistols blazing. Because that's what we
+                        do. We never stop fighting.❞<br>
+                        ― Leigh Bardugo, Crooked Kingdom</p>
+                </div>
+            </div>
+
+            <!--FOOTER CON BOOTSTRAP-->
+            <footer class="text-center text-lg-start bg-light text-muted" id="footer">
+                <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                    <div class="me-5 d-none d-lg-block">
+                        <span> ¡Espero que hayas disfrutado!
+                        </span>
+                    </div>
+                </section>
+
+                <section class="">
+                    <div class="container text-center text-md-start mt-5">
+                        <div class="row mt-3">
+                            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                                <p>
+                                    ❝I would say, some people are like constellations that only touch the earth for a
+                                    season.❞
+                                </p>
+                            </div>
+
+                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                                <!-- LINKS DE LA PÁGINA -->
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    <a href="../index.html" class="text-reset">Inicio</a>
+                                </h6>
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    <a href="../recomendaciones.html" class="text-reset">Recomendaciones</a>
+                                </h6>
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    <a href="../rese.html" class="text-reset">Reseñas</a>
+                                </h6>
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    <a href="../lecturas.html" class="text-reset">Lecturas</a>
+                                </h6>
+                            </div>
+
+                            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                                <!-- LINK CONTACTO -->
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    <a href="../contacto.html" class="text-reset">Contacto</a>
+                                </h6>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- FIN LINKS DE LA PÁGINA  -->
+
+                <!-- COPYRIGHT -->
+                <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                    © 2023 Copyright:
+                    <p class="text-reset fw-bold">Liberty Tamayo Martínez</p>
+                </div>
+                <!-- COPYRIGHT -->
+            </footer>
+            <!--FIN FOOTER-->
+
+</body>
+
+</html>
